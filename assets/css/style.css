@@ -152,8 +152,7 @@ ul li a {
     height: 98px;
     display: flex;
     justify-content: space-between;
-    margin-left: 114px;
-    margin-top: 16px;
+    margin: auto;
 }
 
 .client_logo_box img {
@@ -219,5 +218,83 @@ width: 251px;
 color: var(--neutral-grey);
 }
 
+.back{
+    height: 433px;
+    /* background: #f5f7fa; */
+    margin-top: 30px;
+}
+.right_img h3{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 36px;
+line-height: 122%;
+color: var(--neutral-d-grey);
+margin-top: 82px;
+}
+.right_img p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 143%;
+color: var(--neutral-grey);
+margin: 16px 0 32px 0;
+}
+.right_img .signup_btn{
+    border-radius: 4px;
+padding: 14px 32px;
+width: 151px;
+height: 52px;
+}
+.background{
+    background: #f5f7fa;
+    height: 288px;
+    margin-top: 40px;
+}
+.left_items h3{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 36px;
+line-height: 122%;
+width: 408px;
+color: var(--neutral-d-grey);
+margin: 84px 0  8px;
+}
+.right_items{
+    margin-top: 64px;
+}
+.left_items h3 span{
+    color: var(--brand-primary);
+}
+.left_items p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #18191f;
+}
+#helping .details_cnt {
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#helping .pds{
+    width: 255px;
+    height: 60px;
+}
 
+.pds span{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 28px;
+line-height: 129%;
+color: var(--neutral-d-grey);
+}
+.pds p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: var(--neutral-grey);
+}
 
