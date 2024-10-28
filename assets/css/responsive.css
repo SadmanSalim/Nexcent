@@ -1,4 +1,7 @@
 @media (max-width: 991px){
+    nav{
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
     .navbar-brand{
         margin-left: 10px;
     }
@@ -28,5 +31,21 @@
     }
     #our_clients .brands img{
         padding: 10px 0;
+    }
+    /* details */
+    #cmp_details .col-lg-4 img{
+        margin-top: 10px;
+    } 
+    /* paragraph */
+    #paragraph h3 {
+        font-size: 29px;
+        text-align: center;
+    }
+    #paragraph p {
+        font-size: 14px;
+        text-align: center;
+    }
+    #paragraph a {
+        margin: auto;
     }
 }

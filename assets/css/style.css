@@ -147,9 +147,68 @@ font-size: 16px;
 line-height: 150%;
 text-align: center;
 color: var(--neutral-grey);
+margin-top: 8px;
 }
 #our_clients .brands{
     margin: 16px auto 40px;
 }
+/* details */
+#cmp_details .headings h3{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 36px;
+line-height: 122%;
+text-align: center;
+color: var(--neutral-d-grey);
+}
+#cmp_details .headings p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: var(--neutral-grey);
+margin: 8px 0 16px;
+}
+#cmp_details .texts{
+    width: 240px;
+}
+#cmp_details .texts h4{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 28px;
+line-height: 129%;
+text-align: center;
+color: var(--neutral-d-grey);
+margin: 16px 0 8px 0;
+}
+#cmp_details .texts p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 143%;
+text-align: center;
+color: var(--neutral-grey);
+}
 
+/* paragraph */
+#paragraph h3{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 36px;
+line-height: 122%;
+color: var(--neutral-d-grey);
+}
+#paragraph p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 143%;
+color: var(--neutral-grey);
+margin: 16px 0 32px;
+}
+#paragraph .button_primary{
+    border-radius: 4px;
+padding: 14px 32px;
+}
 
