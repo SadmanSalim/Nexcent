@@ -211,4 +211,52 @@ margin: 16px 0 32px;
     border-radius: 4px;
 padding: 14px 32px;
 }
-
+/* company btn */
+#comp_details .bg_cont{
+    background: #f5f7fa;
+    height: 288px;
+}
+#comp_details .hed h4{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 36px;
+line-height: 122%;
+color: var(--neutral-d-grey);
+margin-top: 84px;
+}
+#comp_details .hed h4 span{
+    color: var(--brand-primary);
+    display: block;
+}
+#comp_details .hed p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #18191f;
+    margin-top: 8px;
+}
+#comp_details .icons .texts{
+    margin-left: 16px;
+}
+#comp_details .icons .texts h5{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 28px;
+line-height: 129%;
+color: var(--neutral-d-grey);
+}
+#comp_details .icons .texts p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: var(--neutral-grey);
+}
+.right_items{
+    margin-top: 64px;
+}
+.mn_icons{
+    font-size: 48px;
+    color: var(--brand-primary);
+}
