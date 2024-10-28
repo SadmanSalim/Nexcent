@@ -5,49 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nexcent</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+        href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" />
     <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 
 <body>
+
+    <!-- *Nav bar  START HERE -->
+
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container d-flex justify-content-between">
-                <a class="navbar-brand ms-2" href="#"><img src="./assets/img/Logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="./assets/img/Logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <iconify-icon icon="majesticons:menu"></iconify-icon>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav m-auto">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Home</a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="#">Service</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#">Feature</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Products</a>
+                            <a class="nav-link" href="#">Product</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Testimonials</a>
+                            <a class="nav-link" href="#">Testimonial</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">FAQs</a>
+                            <a class="nav-link" href="#">FAQ</a>
                         </li>
                     </ul>
-                    <div class="login_sec">
-                        <a class="log_btn" href="#">Login</a>
-                        <a class="signup_btn" href="#">Sign Up</a>
+                    <div class="action_btns">
+                        <a class="button_primary button_secondary" href="#">Login</a>
+                        <a class="button_primary" href="#">Sign up</a>
                     </div>
                 </div>
             </div>
@@ -55,182 +61,55 @@
     </header>
 
 
+    <!-- *nav bar  ENDS HERE -->
+
+
     <main>
-        <!-- banner -->
-        <section id="banner">
-            <div class="container-fluid">
-                <div class="banner_cnt">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="left_side col-7">
-                                <h1>Lessons and insights <span>from 8 years</span></h1>
-                                <p>Where to grow your business as a photographer: site or social media?</p>
-                                <a class="signup_btn" href="#">Register</a>
-                            </div>
-                            <div class="right_side col-5">
-                                <img src="./assets/img/Illustration.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- client section -->
-        <section id="clients">
+        <!-- *banner Section start -->
+        <section id="banner_part">
             <div class="container">
-                <h3>Our Clients</h3>
-                <p>We have been working with some Fortune 500+ clients</p>
-                <div class="client_logo_box">
-                    <img src="./assets/img/Logo (1).png" alt="">
-                    <img src="./assets/img/Logo (2).png" alt="">
-                    <img src="./assets/img/Logo (3).png" alt="">
-                    <img src="./assets/img/Logo (4).png" alt="">
-                    <img src="./assets/img/Logo (5).png" alt="">
-                    <img src="./assets/img/Logo (6).png" alt="">
-                    <img src="./assets/img/Logo (7).png" alt="">
+                <div class="row align-items-center">
+                    <div class="left-side col-lg-7">
+                        <h1>Lessons and insights <span>from 8 years</span></h1>
+                        <p>Where to grow your business as a photographer: site or social media?</p>
+                        <a class="button_primary" href="#">Register</a>
+                    </div>
+                    <div class="right-side col-lg-5 text-center">
+                        <img src="./assets/img/Illustration.png" class="img-fluid" alt="">
+                    </div>
                 </div>
             </div>
         </section>
-        <!-- some details -->
-        <section id="details">
+        <!-- *banner Section end -->
+
+
+        <!-- *Our Clients Section start -->
+        <section id="our_clients">
             <div class="container">
-                <h3>Manage your entire community in a single system</h3>
-                <p>Who is Nextcent suitable for?
-                </p>
-                <div class="details">
-                    <div class="membership">
-                        <img src="./assets/img/Icon1.png" alt="">
-                        <h4>Membership Organisations</h4>
-                        <p>Our membership management software provides full automation of membership renewals and
-                            payments
-                        </p>
-                    </div>
-                    <div class="membership">
-                        <img src="./assets/img/Icon2.png" alt="">
-                        <h4>National Associations</h4>
-                        <p>Our membership management software provides full automation of membership renewals and
-                            payments
-                        </p>
-                    </div>
-                    <div class="membership">
-                        <img src="./assets/img/Icon3.png" alt="">
-                        <h4>Clubs And Groups</h4>
-                        <p>Our membership management software provides full automation of membership renewals and
-                            payments
-                        </p>
+                <div class="headings">
+                    <h4>Our Clients</h4>
+                    <p>We have been working with some Fortune 500+ clients</p>
+                </div>
+                <div class="brands">
+                    <div class="row text-center">
+                        <div class="col-lg col-6"><img src="./assets/img/Logo (1).png" alt=""></div>
+                        <div class="col-lg col-6"><img src="./assets/img/Logo (2).png" alt=""></div>
+                        <div class="col-lg col-6"><img src="./assets/img/Logo (3).png" alt=""></div>
+                        <div class="col-lg col-6"><img src="./assets/img/Logo (4).png" alt=""></div>
+                        <div class="col-lg col-6"><img src="./assets/img/Logo (5).png" alt=""></div>
+                        <div class="col-lg col-6"><img src="./assets/img/Logo (6).png" alt=""></div>
+                        <div class="col-lg col-6 d-none d-lg-inline-block"><img src="./assets/img/Logo (7).png" alt=""></div>
                     </div>
                 </div>
             </div>
         </section>
-
-        <!-- *helping Section start -->
-        <section id="helping">
-            <div class="container-fluid background">
-                <div class="container">
-                    <div class="row">
-                        <div class="left_items col-6">
-                            <h3>Helping a local <span>business reinvent itself</span></h3>
-                            <p>We reached here with our hard work and dedication</p>
-                        </div>
-                        <div class="right_items col-6">
-                            <div class="details_cnt">
-                                <div class="pds d-flex">
-                                    <div class="icon_img"><img src="./assets/img/people.png" alt=""></div>
-                                    <div class="icon_texts ms-3">
-                                        <span>2,245,341</span>
-                                        <p>Members</p>
-                                    </div>
-                                </div>
-                                <div class="pds d-flex">
-                                    <div class="icon_img"><img src="./assets/img/club.png" alt=""></div>
-                                    <div class="icon_texts ms-3">
-                                        <span>46,328</span>
-                                        <p>Clubs</p>
-                                    </div>
-                                </div>
-                                <div class="pds d-flex mt-5">
-                                    <div class="icon_img"><img src="./assets/img/event.png" alt=""></div>
-                                    <div class="icon_texts ms-3">
-                                        <span>828,867</span>
-                                        <p>Event Bookings</p>
-                                    </div>
-                                </div>
-                                <div class="pds d-flex mt-5">
-                                    <div class="icon_img"><img src="./assets/img/payment.png" alt=""></div>
-                                    <div class="icon_texts ms-3">
-                                        <span>1,926,436</span>
-                                        <p>Payments</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- *helping Section end -->
-
-
-
-
-
-
-
-
-        <!-- *more info Section start -->
-        <section id="info_details">
-            <div class="container-fluid back">
-                <div class="container">
-                    <div class="row">
-                        <div class="left_img col-lg-6 col">
-                            <img src="./assets/img/art.png" alt="">
-                        </div>
-                        <div class="right_img col-lg-6 col">
-                            <h3>The unseen of spending three years at Pixelgrade</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed
-                                accumsan
-                                quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta.
-                                Nullam mattis
-                                tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa
-                                pulvinar,
-                                aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
-                            <a class="signup_btn" href="#">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- * Section end -->
-        <!-- *more info Section start -->
-        <section id="info_details">
-            <div class="container-fluid back">
-                <div class="container">
-                    <div class="row">
-                        <div class="left_img col-lg-6 col">
-                            <img src="./assets/img/pana.png" alt="">
-                        </div>
-                        <div class="right_img col-lg-6 col">
-                            <h3>How to design your site footer like we did</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed
-                                accumsan
-                                quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta.
-                                Nullam mattis
-                                tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa
-                                pulvinar,
-                                aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
-                            <a class="signup_btn" href="#">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- * Section end -->
-
-
-
+        <!-- *Our Clients Section end -->
     </main>
 
+
+
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>

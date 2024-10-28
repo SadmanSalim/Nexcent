@@ -1,0 +1,32 @@
+@media (max-width: 991px){
+    .navbar-brand{
+        margin-left: 10px;
+    }
+    .nav-item{
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    /* banner */
+    #banner_part{
+        margin-left: 10px;
+    }
+    #banner_part .left-side h1 {
+        font-size: 37px;
+        margin-top: 20px;
+    }
+    .img-fluid {
+        max-width: 80%;
+    }
+
+    /* our_clients */
+    #our_clients .headings{
+        margin-top: 30px;
+    }
+    #our_clients .brands{
+        margin: auto;
+        margin-top: 20px;
+    }
+    #our_clients .brands img{
+        padding: 10px 0;
+    }
+}
