@@ -59,4 +59,7 @@
     #comp_details .icons .texts{
         margin-left: 11px;
     }
+    #comp_details .bg_cont {
+        height: 100%;
+    }
 }
